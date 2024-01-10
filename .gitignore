@@ -3,3 +3,10 @@
 exercicios/node_modules
 exercicios/package-lock.json
 exercicios/.next
+
+
+#pasta tabuleiro
+
+tabuleiro/node_modules
+tabuleiro/package-lock.json
+tabuleiro/.next
