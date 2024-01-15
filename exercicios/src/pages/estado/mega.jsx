@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import NumeroDisplay from "../../../components/numeroDisplay";
 const estilo = {
     display: "flex",
@@ -13,13 +13,17 @@ const estilo = {
 export default function MegaVirada(){
 
     const [qtde, setQtde] = useState(6);
-    const [numeros, setNumeros] = useState(mega(qtde));
+    const [numeros, setNumeros] = useState([]);
 
     function renderizarNumeros(){
         return numeros.map(
             numero => <NumeroDisplay key={numero} numero={numero}/>
         )
     }
+
+    useEffect(()=> {
+        setNumeros(mega(qtde))
+    }, [])
 
     return (
         <div style={estilo}>
