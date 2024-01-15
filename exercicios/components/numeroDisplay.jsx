@@ -1,4 +1,4 @@
-export default function ContadorDisplay(props){
+export default function NumeroDisplay(props){
 
     const estilo = {
         display:"Flex",
