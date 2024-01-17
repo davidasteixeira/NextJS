@@ -10,3 +10,10 @@ exercicios/.next
 tabuleiro/node_modules
 tabuleiro/package-lock.json
 tabuleiro/.next
+
+
+#pasta next-basico
+
+next-basico/node_modules
+next-basico/package-lock.json
+next-basico/.next
