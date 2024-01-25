@@ -17,3 +17,10 @@ tabuleiro/.next
 next-basico/node_modules
 next-basico/package-lock.json
 next-basico/.next
+
+
+#pasta portas
+
+portas/node_modules
+portas/package-lock.json
+portas/.next
