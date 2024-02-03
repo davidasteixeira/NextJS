@@ -1,0 +1,15 @@
+.cartao {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  color: #fff;
+  margin: 3px;
+  font-size: 2rem;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.cartao h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
