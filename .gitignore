@@ -24,3 +24,11 @@ next-basico/.next
 portas/node_modules
 portas/package-lock.json
 portas/.next
+
+
+
+#pasta renderizacao
+
+renderizacao/node_modules
+renderizacao/package-lock.json
+renderizacao/.next
