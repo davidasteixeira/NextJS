@@ -32,3 +32,10 @@ portas/.next
 renderizacao/node_modules
 renderizacao/package-lock.json
 renderizacao/.next
+
+
+#pasta quiz
+
+quiz/node_modules
+quiz/package-lock.json
+quiz/.next
