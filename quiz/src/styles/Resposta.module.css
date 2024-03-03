@@ -1,10 +1,22 @@
 .resposta {
   display: flex;
+  height: 100px;
+  margin: 10px;
+  width: 80%;
+  min-width: 500px;
+}
+.conteudoResposta {
+  display: flex;
+  flex: 1;
+  position: relative;
 }
 
 .frente,
 .verso {
+  position: absolute;
   display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 .frente {
@@ -25,6 +37,7 @@
   font-size: 1.3rem;
   font-weight: 700;
   margin-right: 20px;
+  color: #fff;
 }
 
 .valor {
