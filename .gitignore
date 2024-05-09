@@ -39,3 +39,7 @@ renderizacao/.next
 quiz/node_modules
 quiz/package-lock.json
 quiz/.next
+
+admin-template/node_modules
+admin-template/package-lock.json
+admin-template/.next
