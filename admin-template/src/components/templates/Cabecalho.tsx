@@ -1,4 +1,4 @@
-import BotaoAlternarTema from "../BotaoAlternarTema";
+import BotaoAlternarTema from "./BotaoAlternarTema";
 import useAppData from "../../data/hook/useAppData";
 import Titulo from "./Titulo";
 
