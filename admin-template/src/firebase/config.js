@@ -1,7 +1,8 @@
 import firebase from "firebase/app";
 import "firebase/auth";
 
-if (!firebase.app.length) {
+if (!firebase.apps.length) {
+  console.log("Entrou na config firebase");
   firebase.initializeApp({
     apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
     authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
